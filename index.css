@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
   list-style: none;
 }
 
@@ -73,7 +74,7 @@ nav li:last-child:before {
   padding: 8px 16px;
 }
 .main-header {
-  background: url(./bg.jpg) fixed center/cover;
+  background: url(./bg.jpg)  center/cover;
   color: white;
   padding: 60px;
 }
@@ -321,12 +322,10 @@ footer ul {
   }
 }
 @media screen and (max-width: 704px) {
-  h1{
-    text-align:center;
-  }
   nav li {
     display: none;
   }
+ 
   .icon-part-container {
     display: block;
   }
